@@ -1,0 +1,58 @@
+h1 {
+    color: white;
+    margin-left: 500px;
+    padding-left: 100px;
+}
+
+
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+    border-color: lightblue
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+p:hover {
+    background-color: aqua;
+}
+a:link {
+    color: green;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  }
+  
